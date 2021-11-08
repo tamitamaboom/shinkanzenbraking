@@ -1,0 +1,361 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>shinbraking</name>
+    <description>for basic mechanic</description>
+    <version>1.0.0.0</version>
+    <author>Thanick Chongtrakul, Worames Padungcharoen</author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.thanickworames.shinbraking</app-id>
+    <unique-id>2a2h67pp8pjnn</unique-id>
+    <saved-with-version>27500</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
+        <plugin author="Scirra" id="Button" version="1">Button</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="TextBox" version="1">Text box</plugin>
+        <plugin author="Scirra" id="sliderbar" version="1">Slider bar</plugin>
+        <plugin author="Scirra" id="video" version="1">Video</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Car" version="1">Car</behavior>
+        <behavior author="Scirra" id="Physics" version="1">Physics</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>854</width>
+        <height>480</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <first-layout>Shinkansen_Braking</first-layout>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Downscaling">Medium quality</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Construct 2 splash</prop>
+        <prop name="Orientations">Any</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preload sounds">Yes</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="Sprite" sid="814057159211036">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Physics" sid="489185998180351">
+                    <behavior id="Physics" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="589096082945352" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Ground" sid="346091545875137">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Physics" sid="330413157197163">
+                    <behavior id="Physics" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="220097617231782" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501247" original-source="C:\Users\Admin\Desktop\N700\track.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite2" sid="710153856812023">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Physics" sid="549973275642891">
+                    <behavior id="Physics" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="339146445001053" speed="5">
+                    <frame duration="1" hotspotX="0.503514" hotspotY="0.542529" original-source="C:\Users\PPUNN\Downloads\700A.png">
+                        <collision-poly>
+                            <point x="0.015659" y="0.0367816" />
+                            <point x="0.503514" y="0.0712644" />
+                            <point x="0.973408" y="0.53908" />
+                            <point x="0.973902" y="0.542529" />
+                            <point x="0.981012" y="0.758621" />
+                            <point x="0.503514" y="0.995402" />
+                            <point x="0.0175496" y="0.995402" />
+                            <point x="4.10998e-005" y="0.542529" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="N700A" sid="156732257522698">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Physics" sid="477686054879014">
+                    <behavior id="Physics" />
+                </behavior-type>
+                <behavior-type name="Car" sid="135587404132361">
+                    <behavior id="Car" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="269477079361937" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.544118" original-source="C:\Users\PPUNN\Downloads\247631810_417774759861138_5401243783669737318_n.png">
+                        <collision-poly>
+                            <point x="0.0666056" y="0" />
+                            <point x="0.5" y="0" />
+                            <point x="0.88017" y="0.501601" />
+                            <point x="0.893476" y="0.540918" />
+                            <point x="0.921039" y="1" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0618534" y="1" />
+                            <point x="0.00387742" y="0.540918" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Stop" sid="740933805223276">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="445732688576244" speed="5">
+                    <frame duration="1" hotspotX="0.519663" hotspotY="0.481481" original-source="C:\Users\Admin\Desktop\N700\meter1.png">
+                        <collision-poly>
+                            <point x="0.0246479" y="0.0148305" />
+                            <point x="0.978873" y="0.0127119" />
+                            <point x="0.637324" y="0.459746" />
+                            <point x="0.552817" y="0.652542" />
+                            <point x="0.5" y="0.989407" />
+                            <point x="0.492958" y="0.625" />
+                            <point x="0.40493" y="0.459746" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Button" sid="128461506133577">
+            <plugin id="Button" />
+            <instance-variables>
+                <instance-variable name="start" sid="306055039436546" type="boolean" />
+            </instance-variables>
+        </object-type>
+        <object-type name="SliderBar" sid="172983170285825">
+            <plugin id="sliderbar" />
+        </object-type>
+        <object-type name="brake_accel" sid="483789482347535">
+            <plugin id="TextBox" />
+            <instance-variables>
+                <instance-variable name="Brake" sid="623386057849727" type="number" />
+            </instance-variables>
+        </object-type>
+        <object-type name="speed_meter" sid="392105613139353">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Text" sid="536700685112345">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Text2" sid="486443389518112">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="dist" sid="918648663943752">
+            <plugin id="Text" />
+            <instance-variables>
+                <instance-variable name="distance" sid="457555136194746" type="number" />
+            </instance-variables>
+        </object-type>
+        <object-type name="Text3" sid="816339315377705">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="spd" sid="289611931659923">
+            <plugin id="Text" />
+            <instance-variables>
+                <instance-variable name="speed" sid="972924671351218" type="number" />
+            </instance-variables>
+        </object-type>
+        <object-type name="Text4" sid="933600636681913">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Text5" sid="957019819453368">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="velo" sid="761983435226965">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="velodebug" sid="571248482845066">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="ResetButton" sid="535897341899420">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="Text6" sid="876609365891855">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Status" sid="214029737894570">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="distnow" sid="389834334445394">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Timer" sid="238468451223654">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Background" sid="710597817853161">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="623872138622790" speed="5">
+                    <frame duration="1" hotspotX="0.500462" hotspotY="0.5" original-source="C:\Users\Admin\Desktop\N700\panorama-mount-fuji-kawakuchiko-japan-260nw-1611954052.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="PlatformB" sid="702529050821651">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="942195628280744" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501176" original-source="C:\Users\Admin\Desktop\N700\PlatformB.png">
+                        <collision-poly>
+                            <point x="0.0134953" y="0.0470588" />
+                            <point x="0.980432" y="0.0682353" />
+                            <point x="0.950742" y="0.498824" />
+                            <point x="0.960864" y="0.863529" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0384615" y="0.865882" />
+                            <point x="0.0398111" y="0.498824" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="PlatformA" sid="203691704956753">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="232321058488488" speed="5">
+                    <frame duration="1" hotspotX="0.500353" hotspotY="0.5" original-source="C:\Users\Admin\Desktop\N700\PlatformA.png">
+                        <collision-poly>
+                            <point x="0.0318021" y="0.288462" />
+                            <point x="0.499647" y="0.237179" />
+                            <point x="0.971025" y="0.262821" />
+                            <point x="0.971731" y="0.74359" />
+                            <point x="0.499647" y="1" />
+                            <point x="0.0318021" y="0.711538" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Lamp" sid="752525089335314">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="444426731313862" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Admin\Desktop\N700\street-lamp-post-light-post-two-lights-.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="distnow2" sid="492398495058589">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Catenary" sid="361361429164178">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="829784588941730" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501333" original-source="C:\Users\Admin\Desktop\N700\catenery.png">
+                        <collision-poly>
+                            <point x="0.15616" y="0.290667" />
+                            <point x="0.5" y="0.381333" />
+                            <point x="0.858166" y="0.264" />
+                            <point x="0.859599" y="0.738667" />
+                            <point x="0.5" y="0.445333" />
+                            <point x="0.15616" y="0.709333" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Rail" sid="124679415991730">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="760721401413350" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.503067" original-source="C:\Users\Admin\Desktop\N700\6094.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Popup" sid="369988219226221">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="866027450979848" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501166" original-source="C:\Users\Admin\Desktop\N700\Popup.png">
+                        <collision-poly>
+                            <point x="0.0666667" y="0.111888" />
+                            <point x="0.5" y="0.0745921" />
+                            <point x="0.936111" y="0.107226" />
+                            <point x="0.934722" y="0.890443" />
+                            <point x="0.5" y="0.913753" />
+                            <point x="0.0666667" y="0.888112" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Audio" sid="190695034970923">
+            <plugin id="Audio" />
+        </object-type>
+        <object-type name="Video" sid="446834587737846">
+            <plugin id="video" />
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>Shinkansen_Braking.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>Event sheet 1.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Audio" uid="2">
+            <properties>
+                <timescale-audio>Off</timescale-audio>
+                <saveload>All</saveload>
+                <play-in-background>No</play-in-background>
+                <positioned-audio></positioned-audio>
+                <panning-model>HRTF</panning-model>
+                <distance-model>Inverse</distance-model>
+                <listener-z-height>600</listener-z-height>
+                <reference-distance>600</reference-distance>
+                <maximum-distance>10000</maximum-distance>
+                <roll-off-factor>1</roll-off-factor>
+            </properties>
+        </global-instance>
+    </global-instances>
+    <sounds-folder>
+        <file name="Brake.m4a" />
+        <file name="Brake.ogg" />
+        <file name="Clear.m4a" />
+        <file name="Clear.ogg" />
+        <file name="Failed.m4a" />
+        <file name="Failed.ogg" />
+        <file name="Stop.m4a" />
+        <file name="Stop.ogg" />
+    </sounds-folder>
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>
